@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projetos e iniciativas desenvolvidos no Agrupamento de Escolas de Pinhel no ano letivo 2026-2027.">
+  <title>Projetos 2026-2027 | Agrupamento de Escolas de Pinhel</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="school-logo-link" href="https://aepinhel.org" target="_blank" rel="noopener noreferrer" aria-label="Abrir site do Agrupamento de Escolas de Pinhel">
+        <img class="school-logo" src="assets/images/logo-aepinhel.png" alt="Agrupamento de Escolas de Pinhel">
+      </a>
+      <div class="header-title">
+        <span class="eyebrow">Agrupamento de Escolas de Pinhel</span>
+        <h1>Projetos <span>2026-2027</span></h1>
+        <p>Projetos e iniciativas desenvolvidos ao longo do ano letivo.</p>
+      </div>
+    </div>
+    <div class="accent-line" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title" class="sr-only">Projetos disponíveis</h2>
+      <div class="project-grid">
+        <a class="project-card card-robotica" href="https://aepinhel.github.io/robotica/">
+          <div class="card-icon" aria-hidden="true">🤖</div>
+          <div class="card-content">
+            <h3>Clube de Robótica</h3>
+            <p>Projetos, atividades, equipamentos e trabalhos desenvolvidos no Clube de Robótica.</p>
+            <span class="card-action">Aceder ao projeto <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <button class="project-card card-3d" type="button" data-modal="modal-3d">
+          <div class="card-icon" aria-hidden="true">🏫</div>
+          <div class="card-content">
+            <h3>Salas de aula 3D</h3>
+            <p>Projeto dedicado à criação e exploração de espaços educativos em três dimensões.</p>
+            <span class="card-action">Ver informação <span aria-hidden="true">→</span></span>
+          </div>
+        </button>
+
+        <button class="project-card card-contactos" type="button" data-modal="modal-contactos">
+          <div class="card-icon" aria-hidden="true">✉️</div>
+          <div class="card-content">
+            <h3>Contactos</h3>
+            <p>Contacto para informações relacionadas com os projetos apresentados neste espaço.</p>
+            <span class="card-action">Ver contacto <span aria-hidden="true">→</span></span>
+          </div>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Agrupamento de Escolas de Pinhel · Projetos 2026-2027</p>
+  </footer>
+
+  <div class="modal" id="modal-3d" role="dialog" aria-modal="true" aria-labelledby="modal-3d-title" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" type="button" aria-label="Fechar" data-close-modal>×</button>
+      <div class="modal-icon" aria-hidden="true">🏗️</div>
+      <h2 id="modal-3d-title">Salas de aula 3D</h2>
+      <p class="construction-note">Em construção</p>
+      <p>Esta área será disponibilizada brevemente.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-contactos" role="dialog" aria-modal="true" aria-labelledby="modal-contactos-title" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" type="button" aria-label="Fechar" data-close-modal>×</button>
+      <div class="modal-icon" aria-hidden="true">✉️</div>
+      <h2 id="modal-contactos-title">Contactos</h2>
+      <p>Para informações sobre os projetos:</p>
+      <a class="email-link" href="mailto:nuno.martins@aepinhel.org">nuno.martins@aepinhel.org</a>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
